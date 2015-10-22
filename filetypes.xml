@@ -1,0 +1,15 @@
+<application>
+  <component name="FileTypeManager" version="15">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="33823-passportjpg-0001" type="Images" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="crontab.txt" type="PLAIN_TEXT" />
+      <mapping ext="swf" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="locker" type="PLAIN_TEXT" />
+      <mapping ext="volt" type="Twig" />
+      <mapping pattern="*-nginx.conf" type="nginx file type" />
+    </extensionMap>
+  </component>
+</application>

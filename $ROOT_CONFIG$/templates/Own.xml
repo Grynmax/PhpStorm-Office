@@ -1,0 +1,21 @@
+<templateSet group="Own">
+  <template name="aa" value="echo __FILE__ . ' ' . __LINE__;&#10;echo '&lt;pre&gt;';&#10;print_r($VAR$);&#10;echo '&lt;/pre&gt;';&#10;die('+');" description="Dump data" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="av" value="echo __FILE__ . ' ' . __LINE__;&#10;echo '&lt;pre&gt;';&#10;var_dump($VAR$);&#10;echo '&lt;/pre&gt;';&#10;die('+');" description="Detailed dump data" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="CSM" value="* @method static $FILE$ findFirst($w = array())" description="Create Static Methods" toReformat="true" toShortenFQNames="true">
+    <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+</templateSet>
