@@ -12,7 +12,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="CSM" value="* @method static $FILE$ findFirst($w = array())" description="Create Static Methods" toReformat="true" toShortenFQNames="true">
+  <template name="CSM" value="* @method static $FILE$ findFirst($w = array())&#10;* @method static $FILE$[] find($w = array())&#10;* @method static $FILE$ findBy($w = array())&#10;* @method static $FILE$[] allBy($w = array())" description="Create Static Methods" toReformat="true" toShortenFQNames="true">
     <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Comment" value="true" />
