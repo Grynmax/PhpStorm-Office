@@ -1,0 +1,9 @@
+<templateSet group="Volt">
+  <template name="TABLE" value="&lt;table class=&quot;table table-hover table-striped&quot;&gt;&#10;&lt;thead&gt;&lt;tr&gt;&#10;&lt;th&gt;ID&lt;/th&gt;&#10;&lt;th&gt;&lt;/th&gt;&#10;&lt;/tr&gt;&lt;/thead&gt;&#10;&lt;tbody&gt;&#10;{% for $NAM$ in $NAME$ %}&#10;  &lt;tr&gt;&#10;    &lt;td&gt;{{ $NAM$.getId() }}&lt;/td&gt;&#10;    &lt;td&gt;{{ $NAM$. }}&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;{% else %}&#10;  &lt;tr&gt;&lt;th colspan=&quot;3&quot;&gt;Нет данных для отображения&lt;/th&gt;&lt;/tr&gt;&#10;{% endfor %}&#10;&lt;/tbody&gt;&#10;&lt;/table&gt;" description="Table" toReformat="true" toShortenFQNames="true">
+    <variable name="NAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
